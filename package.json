@@ -1,0 +1,57 @@
+{
+  "name": "blockchain-web3-roadmap",
+  "version": "1.0.0",
+  "description": "A 4-week intensive curriculum to go from React/Node developer to industry-ready Web3 engineer. Covers Solidity, DeFi, NFTs, smart contract security, Layer 2, and a full capstone project.",
+  "keywords": [
+    "blockchain",
+    "web3",
+    "ethereum",
+    "solidity",
+    "defi",
+    "nft",
+    "hardhat",
+    "openzeppelin",
+    "chainlink",
+    "wagmi",
+    "ethers",
+    "smart-contracts",
+    "erc20",
+    "erc721",
+    "layer2",
+    "curriculum",
+    "roadmap",
+    "tutorial",
+    "uniswap",
+    "ipfs"
+  ],
+  "author": "wasiiff",
+  "license": "MIT",
+  "homepage": "https://github.com/wasiiff/Blockchain-Web3-Roadmap#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wasiiff/Blockchain-Web3-Roadmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wasiiff/Blockchain-Web3-Roadmap/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^1.5.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "chai": "^6.2.2",
+    "hardhat": "^3.4.4",
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.10"
+  }
+}

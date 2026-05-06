@@ -1,5 +1,15 @@
 node_modules/
-package.json
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
+.env
+.env.local
+.env.*.local
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+deployments/localhost/
+deployments/hardhat/
+*.log
